@@ -6,4 +6,6 @@
     <string name="warrior">Warrior</string>
     <string name="login">Login</string>
     <string name="register">Register</string>
+    <string name="daftarkan">Daftarkan diri dan akun anda untuk menjadi warrior</string>
+    <string name="register2">REGISTER</string>
 </resources>

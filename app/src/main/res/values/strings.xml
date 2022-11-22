@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Warrior</string>
+    <string name="warrior_pro">Warrior PRO</string>
+    <string name="caption">Buat diri Anda Sebagai Ambasador dan sebarkan hal baik untuk membangun Brand lebih baik</string>
+    <string name="WELCOME">Selamat Datang di</string>
+    <string name="warrior">Warrior</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+</resources>

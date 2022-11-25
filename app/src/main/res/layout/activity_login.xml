@@ -28,8 +28,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="20sp"
-        android:background="@drawable/edittext_shape"
-        android:hint="warrior@warrior.id"/>
+        android:background="@drawable/edittext_shape"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -39,12 +38,21 @@
         android:textStyle="bold"
         android:textColor="@color/black"
         android:layout_marginTop="32dp"/>
-    <EditText
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app:boxStrokeColor="@color/black"
+        app:boxStrokeWidth="16dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="20sp"
-        android:background="@drawable/edittext_shape"
-        android:hint="123456"/>
+        app:endIconMode="password_toggle">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edt_background"
+        android:inputType="textPassword"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
 
     <LinearLayout
         android:layout_width="match_parent"

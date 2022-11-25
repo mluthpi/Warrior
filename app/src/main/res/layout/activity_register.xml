@@ -31,8 +31,8 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:backgroundTint="@color/white"
-        android:hint="Muhammad Luthfiyanto"/>
+        android:background="@drawable/edt_background"
+        android:height="40sp" />
 
     <TextView
         android:layout_width="match_parent"
@@ -44,8 +44,8 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:backgroundTint="@color/white"
-        android:hint="warrior@warrior.id"/>
+        android:height="40dp"
+        android:background="@drawable/edt_background"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -57,9 +57,9 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:backgroundTint="@color/white"
-        android:inputType="number"
-        android:hint="0812939933933"/>
+        android:background="@drawable/edt_background"
+        android:height="40dp"
+        android:inputType="number"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -68,10 +68,19 @@
         android:layout_marginTop="16dp"
         android:textColor="@color/black"/>
 
-    <EditText
+    <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:backgroundTint="@color/white" />
+        app:endIconMode="password_toggle">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edt_background"
+            android:inputType="textPassword"/>
+
+
+    </com.google.android.material.textfield.TextInputLayout>
 
     <Button
         android:id="@+id/btn_lanjutkan"

@@ -11,7 +11,8 @@
         <entry key="..\:/dicoding/Warrior/app/src/main/res/drawable/next_button.xml" value="0.1035" />
         <entry key="..\:/dicoding/Warrior/app/src/main/res/drawable/register_butto.xml" value="0.1035" />
         <entry key="..\:/dicoding/Warrior/app/src/main/res/drawable/register_button.xml" value="0.1035" />
-        <entry key="..\:/dicoding/Warrior/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/dicoding/Warrior/app/src/main/res/layout/activity_after_login.xml" value="0.18796296296296297" />
+        <entry key="..\:/dicoding/Warrior/app/src/main/res/layout/activity_login.xml" value="0.22" />
         <entry key="..\:/dicoding/Warrior/app/src/main/res/layout/activity_main.xml" value="0.18425925925925926" />
         <entry key="..\:/dicoding/Warrior/app/src/main/res/layout/activity_register.xml" value="0.22" />
         <entry key="..\:/dicoding/Warrior/app/src/main/res/layout/activity_splashscreen.xml" value="0.18425925925925926" />

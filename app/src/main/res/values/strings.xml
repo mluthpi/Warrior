@@ -8,4 +8,7 @@
     <string name="register">Register</string>
     <string name="daftarkan">Daftarkan diri dan akun anda untuk menjadi warrior</string>
     <string name="register2">REGISTER</string>
+    <string name="no_handphone">NO HANDPHONE</string>
+    <string name="nama_lengkap">NAMA LENGKAP</string>
+    <string name="lanjutkan">Lanjutkan</string>
 </resources>

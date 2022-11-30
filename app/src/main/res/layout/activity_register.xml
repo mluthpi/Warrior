@@ -14,79 +14,106 @@
         android:text="@string/register2"
         android:textStyle="bold"
         android:textSize="32sp"
+        android:layout_marginBottom="2dp"
         android:textColor="@color/black"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
         android:text="@string/daftarkan"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="NAMA LENGKAP"
-        android:layout_marginTop="16dp"
+        android:text="@string/nama_lengkap"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="6dp"
         android:textColor="@color/black"/>
 
-    <EditText
+    <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/edt_background"
-        android:height="40sp" />
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app:boxBackgroundColor="@null">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/transparent" />
+    </com.google.android.material.textfield.TextInputLayout>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="EMAIL"
         android:layout_marginTop="16dp"
+        android:layout_marginBottom="6dp"
         android:textColor="@color/black"/>
 
-    <EditText
+    <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:height="40dp"
-        android:background="@drawable/edt_background"/>
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app:boxBackgroundColor="@null">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/transparent"
+            android:inputType="textEmailAddress"/>
+    </com.google.android.material.textfield.TextInputLayout>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="NO HANDPHONE"
+        android:text="@string/no_handphone"
         android:layout_marginTop="16dp"
+        android:layout_marginBottom="6dp"
         android:textColor="@color/black"/>
 
-    <EditText
+    <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/edt_background"
-        android:height="40dp"
-        android:inputType="number"/>
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app:boxBackgroundColor="@null">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/transparent"
+            android:inputType="number"/>
+    </com.google.android.material.textfield.TextInputLayout>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="PASSWORD"
         android:layout_marginTop="16dp"
+        android:layout_marginBottom="6dp"
         android:textColor="@color/black"/>
 
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app:boxBackgroundColor="@null"
         app:endIconMode="password_toggle">
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/edt_background"
+            android:backgroundTint="@android:color/transparent"
             android:inputType="textPassword"/>
-
-
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
         android:id="@+id/btn_lanjutkan"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Lanjutkan"
+        android:text="@string/lanjutkan"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="16dp"
         android:textAllCaps="false"/>
 
     <LinearLayout
